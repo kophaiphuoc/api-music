@@ -1,5 +1,5 @@
 const { users } = require("../models/user");
-const bcrypt = require('bcrypt');
+var bcrypt   = require('bcryptjs');
 
 const usercontroller = {
     register: async(req,res,next) => {

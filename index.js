@@ -10,7 +10,6 @@ dotenv.config();
 
 const favorutie = require("./routers/favourite");
 const register = require("./routers/user");
-const { application, request } = require("express");
 
 app.use(express.json());
 app.use(cors());
